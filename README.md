@@ -1,6 +1,9 @@
 # ele306_semesteroppgave
 This is a school project from HVL.
 
+## Felles mappe
+https://hvl365-my.sharepoint.com/:f:/g/personal/583663_stud_hvl_no/EkC8XdJOopJJqDhuiiCXXMwBQ5gGoz-AVumh3nnX7u4V-A?e=sfdB2A
+
 # Robot Design Challenge 3: A couple of kitchen arms to prepare basic food
 ## Robot arm requirements:
 a. Two 6-dof robots arms attached on the wall,
