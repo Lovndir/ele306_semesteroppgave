@@ -1,0 +1,47 @@
+ 
+L1 = 
+Revolute(std):  theta=q1   d=d1_1 a=a1_1 alpha=alpha1_1 offset=0          
+Revolute(std):  theta=q2   d=d2_1 a=a2_1 alpha=alpha2_1 offset=0          
+Revolute(std):  theta=q3   d=d3_1 a=a3_1 alpha=alpha3_1 offset=0          
+Revolute(std):  theta=q4   d=d4_1 a=a4_1 alpha=alpha4_1 offset=0          
+Revolute(std):  theta=q5   d=d5_1 a=a5_1 alpha=alpha5_1 offset=0          
+Revolute(std):  theta=q6   d=d6_1 a=a6_1 alpha=alpha6_1 offset=0          
+
+ 
+L2 = 
+Revolute(std):  theta=q1   d=d1_2 a=a1_2 alpha=alpha1_2 offset=0          
+Revolute(std):  theta=q2   d=d2_2 a=a2_2 alpha=alpha2_2 offset=0          
+Revolute(std):  theta=q3   d=d3_2 a=a3_2 alpha=alpha3_2 offset=0          
+Revolute(std):  theta=q4   d=d4_2 a=a4_2 alpha=alpha4_2 offset=0          
+Revolute(std):  theta=q5   d=d5_2 a=a5_2 alpha=alpha5_2 offset=0          
+Revolute(std):  theta=q6   d=d6_2 a=a6_2 alpha=alpha6_2 offset=0          
+
+
+Robot_1 = 
+ 
+Robot Arm 1:: 6 axis, RRRRRR, stdDH, slowRNE, Symbolic           
++---+-----------+-----------+-----------+-----------+-----------+
+| j |     theta |         d |         a |     alpha |    offset |
++---+-----------+-----------+-----------+-----------+-----------+
+|  1|         q1|       d1_1|       a1_1|   alpha1_1|          0|
+|  2|         q2|       d2_1|       a2_1|   alpha2_1|          0|
+|  3|         q3|       d3_1|       a3_1|   alpha3_1|          0|
+|  4|         q4|       d4_1|       a4_1|   alpha4_1|          0|
+|  5|         q5|       d5_1|       a5_1|   alpha5_1|          0|
+|  6|         q6|       d6_1|       a6_1|   alpha6_1|          0|
++---+-----------+-----------+-----------+-----------+-----------+
+
+
+Robot_2 = 
+ 
+Robot Arm 2:: 6 axis, RRRRRR, stdDH, slowRNE, Symbolic           
++---+-----------+-----------+-----------+-----------+-----------+
+| j |     theta |         d |         a |     alpha |    offset |
++---+-----------+-----------+-----------+-----------+-----------+
+|  1|         q1|       d1_2|       a1_2|   alpha1_2|          0|
+|  2|         q2|       d2_2|       a2_2|   alpha2_2|          0|
+|  3|         q3|       d3_2|       a3_2|   alpha3_2|          0|
+|  4|         q4|       d4_2|       a4_2|   alpha4_2|          0|
+|  5|         q5|       d5_2|       a5_2|   alpha5_2|          0|
+|  6|         q6|       d6_2|       a6_2|   alpha6_2|          0|
++---+-----------+-----------+-----------+-----------+-----------+
