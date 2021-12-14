@@ -9,7 +9,7 @@ clear, close all, clc;
 
 q1=pi/2; q2=-pi/6; q3=-pi/4; q4=pi/2; q5=1; q6=1;
 d1=0.089459; d2=0; d3=0; d4=0.10915; d5=0.09465; d6=0.0823;
-a1=0; a2=-0.612; a3=-0.5723; a4=0; a5=0; a6=0;
+a1=0; a2=-0.68; a3=-0.66; a4=0; a5=0; a6=0;
 alpha1=1.5708; alpha2=0; alpha3=0; alpha4=1.5708; alpha5=-1.5708; alpha6=0;
 
 Transf0til1 = ([cos(q1) (-sin(q1)*cos(alpha1)) (sin(q1)*sin(alpha1)) (a1*cos(q1)); ...
@@ -44,8 +44,8 @@ No_Toolbox = Transf0til1*Transf1til2*Transf2til3*Transf3til4*Transf4til5*Transf5
 
 
 L1(1) = Link([ 0 0.089459 0 1.5708 ]);
-L1(2) = Link([ 0 0 -0.612 0 ]);
-L1(3) = Link([ 0 0 -0.5723 0 ]);
+L1(2) = Link([ 0 0 -0.68 0 ]);
+L1(3) = Link([ 0 0 -0.66 0 ]);
 L1(4) = Link([ 0 0.10915 0 1.5708 ]);
 L1(5) = Link([ 0 0.09465 0 -1.5708 ]);
 L1(6) = Link([ 0 0.0823 0 0 ]);
